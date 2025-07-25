@@ -1,0 +1,45 @@
+{
+  "title": "📜",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "Mass Coders - SQL Notes",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Introduction to SQL",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Basic SQL Commands",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "SQL Functions and Operators",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "SQL Clauses",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Joins and Subqueries",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Advanced SQL Concepts",
+      "page": 45
+    },
+    {
+      "level": "H3",
+      "text": "Performance Tuning and Optimization",
+      "page": 52
+    }
+  ]
+}
