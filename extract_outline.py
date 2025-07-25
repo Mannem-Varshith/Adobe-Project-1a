@@ -38,7 +38,7 @@ def extract_outline(pdf_path):
                     max_size = span["size"]
                     title = span["text"].strip()
 
-    # Headings
+    # Headings (flat list)
     for page_num in range(len(doc)):
         page = doc[page_num]
         blocks = page.get_text("dict")["blocks"]
@@ -62,9 +62,24 @@ def extract_outline(pdf_path):
                         "text": text,
                         "page": page_num + 1
                     })
+
+    # Build hierarchical outline
+    outline = []
+    stack = []  # Each element: (level, node)
+    level_order = {"H1": 1, "H2": 2, "H3": 3}
+    for heading in headings:
+        node = {**heading, "children": []}
+        while stack and level_order[heading["level"]] <= level_order[stack[-1][0]]:
+            stack.pop()
+        if not stack:
+            outline.append(node)
+        else:
+            stack[-1][1]["children"].append(node)
+        stack.append((heading["level"], node))
+
     return {
         "title": title,
-        "outline": headings
+        "outline": outline
     }
 
 def main():
