@@ -1,0 +1,390 @@
+{
+  "title": "Graph Neural Networks",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "University of Florence",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Graph Neural Networks",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "for Advanced Molecular",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Data Analysis",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Candidate",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Niccol`o Pancino",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Supervisor",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Prof. Monica Bianchini",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "PhD Coordinator",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Prof. Stefano Berretti",
+      "page": 1
+    },
+    {
+      "level": "H3",
+      "text": "Cycle XXXV, years 2019-2023",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Abstract",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Contents",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "List of acronyms used in the",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Thesis",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 1",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "1.1",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "GNNs in Bioinformatics",
+      "page": 11
+    },
+    {
+      "level": "H2",
+      "text": "1.2",
+      "page": 13
+    },
+    {
+      "level": "H2",
+      "text": "Thesis Summary",
+      "page": 13
+    },
+    {
+      "level": "H3",
+      "text": "1.2.1",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "Main Contributions of the Thesis",
+      "page": 16
+    },
+    {
+      "level": "H3",
+      "text": "1.2.2",
+      "page": 17
+    },
+    {
+      "level": "H3",
+      "text": "Structure of the Thesis",
+      "page": 17
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 2",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Deep Learning on Structured",
+      "page": 19
+    },
+    {
+      "level": "H1",
+      "text": "Data",
+      "page": 19
+    },
+    {
+      "level": "H2",
+      "text": "2.1",
+      "page": 20
+    },
+    {
+      "level": "H2",
+      "text": "Deep Learning",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "2.1.1",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "From Artificial Intelligence to Deep Learning",
+      "page": 20
+    },
+    {
+      "level": "H3",
+      "text": "2.1.2",
+      "page": 23
+    },
+    {
+      "level": "H3",
+      "text": "Learning with Deep Models",
+      "page": 23
+    },
+    {
+      "level": "H2",
+      "text": "2.2",
+      "page": 24
+    },
+    {
+      "level": "H2",
+      "text": "Machine Learning for Structured Data",
+      "page": 24
+    },
+    {
+      "level": "H3",
+      "text": "2.2.1",
+      "page": 26
+    },
+    {
+      "level": "H3",
+      "text": "Structure–Oriented Models",
+      "page": 26
+    },
+    {
+      "level": "H2",
+      "text": "2.3",
+      "page": 28
+    },
+    {
+      "level": "H2",
+      "text": "Graph Neural Networks",
+      "page": 28
+    },
+    {
+      "level": "H3",
+      "text": "2.3.1",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "The Graph Neural Network Model",
+      "page": 29
+    },
+    {
+      "level": "H3",
+      "text": "2.3.2",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "Learning with Graph Neural Networks",
+      "page": 31
+    },
+    {
+      "level": "H3",
+      "text": "2.3.3",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "Layered Graph Neural Networks",
+      "page": 32
+    },
+    {
+      "level": "H3",
+      "text": "2.3.4",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "Composite Graph Neural Networks",
+      "page": 33
+    },
+    {
+      "level": "H3",
+      "text": "2.3.5",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "Approximation Power of GNNs",
+      "page": 35
+    },
+    {
+      "level": "H3",
+      "text": "2.3.6",
+      "page": 37
+    },
+    {
+      "level": "H3",
+      "text": "Applications of Graph–based Models",
+      "page": 37
+    },
+    {
+      "level": "H2",
+      "text": "2.4",
+      "page": 38
+    },
+    {
+      "level": "H2",
+      "text": "Biological Problems on Graphs",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "2.4.1",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "Graph Data in Biology",
+      "page": 38
+    },
+    {
+      "level": "H3",
+      "text": "2.4.2",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Graphs in Drug Discovery",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "2.4.3",
+      "page": 39
+    },
+    {
+      "level": "H3",
+      "text": "Bioinformatics and GNNs",
+      "page": 39
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 3",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "Machine Learning Applications",
+      "page": 43
+    },
+    {
+      "level": "H1",
+      "text": "to Molecular Data",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "3.1",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "ML in Drug Discovery",
+      "page": 43
+    },
+    {
+      "level": "H2",
+      "text": "3.2",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "DSEs Prediction with DL",
+      "page": 44
+    },
+    {
+      "level": "H2",
+      "text": "3.3",
+      "page": 45
+    },
+    {
+      "level": "H2",
+      "text": "Prediction of Protein–Protein Interfaces",
+      "page": 45
+    },
+    {
+      "level": "H1",
+      "text": "Chapter 4",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "GNNkeras: A Keras–based",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Library for Graph Neural",
+      "page": 47
+    },
+    {
+      "level": "H1",
+      "text": "Networks",
+      "page": 47
+    },
+    {
+      "level": "H2",
+      "text": "4.1",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "Motivation and Significance",
+      "page": 48
+    },
+    {
+      "level": "H2",
+      "text": "4.2",
+      "page": 49
+    },
+    {
+      "level": "H2",
+      "text": "Software Description",
+      "page": 49
+    }
+  ]
+}
